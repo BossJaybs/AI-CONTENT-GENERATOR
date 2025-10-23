@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # AI Content Generation 
 
-![AI Content Generation Dashboard](public/dashboard.png)
+
 
 This project is an AI Content Generation Dashboard built using Next.js, Drizzle ORM, NEON PostgreSQL, Tailwind CSS, and TypeScript (tsx). The dashboard allows users to generate AI content and view their history of generated content.
 
@@ -28,20 +28,8 @@ This project is an AI Content Generation Dashboard built using Next.js, Drizzle 
 - Node.js
 - PostgreSQL
 
-### Installation
 
-1. **Clone the Repository**
-    \`\`\`bash
-    git clone https://github.com/Varunv003/Ai-content_generator-nextjs
-    cd ai-content-generation-dashboard
-    \`\`\`
-
-2. **Install Dependencies**
-    \`\`\`bash
-    npm install
-    \`\`\`
-
-3. **Set Up Environment Variables**
+ **Set Up Environment Variables**
     Create a \`.env.local\` file in the root directory and add the following environment variables:
     \`\`\`env
     NEXT_PUBLIC_DRIZZLE_DB_URL=your-neon-postgresql-url
